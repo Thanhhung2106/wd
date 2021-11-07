@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+.container1{
+position: fixed;
+	z-index: 111111111;
+	background:#ff7f50;
+	display:flex;
+	left:220px;
+}
+.left {
+	
+}
+.left li {
+	list-style: none;
+	float:left;
+	padding:10px 20px;
+	
+}
+.click:hover {
+	background: #459347;
+	padding:10px 20px;
+}
+.left a {
+	text-decoration: none;
+	color:white;
+}
+.right li {
+	list-style: none;
+	float:left;
+	padding:10px 20px;
+	margin-left:100px
+}
+.right a {
+	text-decoration: none;
+	color:white;
+}
